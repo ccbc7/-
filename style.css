@@ -1,0 +1,39 @@
+#result {
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  background-color:lightblue;
+  height: 30px;
+  margin-bottom: 12px;
+  text-align: right;
+  width: 180px;
+}
+
+.container {
+  width: 190px;
+  padding: 30px;
+  /* padding-top: 30px; */
+  background-color: aquamarine;
+  border-radius: 10px;
+}
+
+.operation input {
+  margin: 1px;
+  border-radius: 20%;
+
+}
+
+
+.operation input {
+  font-size: 18px;
+  width: 40px;
+  height: 40px;
+  color:black;
+  vertical-align: middle;
+  border-color: #fff;
+}
+
+.operation input:hover {
+  background-color:aliceblue;
+}

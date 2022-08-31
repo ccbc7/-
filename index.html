@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+    <div class=" container">
+      <input type="text" id="result" readonly="readonly">
+      <div class="operation">
+        <input type="button" value="7" onclick="edit(this.value)">
+        <input type="button" value="8" onclick="edit(this.value)">
+        <input type="button" value="9" onclick="edit(this.value)">
+        <input type="button" value="/" onclick="edit(this.value)">
+      </div>
+      <div class="operation">
+        <input type="button" value="4" onclick="edit(this.value)">
+        <input type="button" value="5" onclick="edit(this.value)">
+        <input type="button" value="6" onclick="edit(this.value)">
+        <input type="button" value="-" onclick="edit(this.value)">
+      </div>
+      <div class="operation">
+        <input type="button" value="1" onclick="edit(this.value)">
+        <input type="button" value="2" onclick="edit(this.value)">
+        <input type="button" value="3" onclick="edit(this.value)">
+        <input type="button" value="+" onclick="edit(this.value)">
+      </div>
+      <div class="operation">
+        <input type="button" value="0" onclick="edit(this.value)">
+        <input type="button" value="." onclick="edit(this.value)">
+        <input type="button" value="*" onclick="edit(this.value)">
+        <input type="button" value="C" onclick="reset()">
+        <input type="button" class="eq" value="=" onclick="calc()">
+      </div>
+    </div>
+
+
+<script src="https://code.jquery.com/jquery-3.6.1.min.js"
+  integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+</body>
+</html>
